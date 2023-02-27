@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Landing Page</title>
   </head>
@@ -11,21 +17,25 @@
     <div class="container">
       <header class="header-container">
         <div class="left-header">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Mushoku_Tensei_international_logo_%28with_colour_gradient%29.svg/640px-Mushoku_Tensei_international_logo_%28with_colour_gradient%29.svg.png"
-            class="logo"
-          />
+          <img src="assets/logo_tensei.png" class="logo" />
         </div>
         <div class="right-header">
-          <a href="#">Contact</a><a href="#">About</a><a href="#">Something</a>
+          <a href="#s1">About</a><a href="#s2">Best Girls</a
+          ><a href="#">Start Now</a>
         </div>
       </header>
 
-      <div class="section-1">
+      <div class="section-1" id="s1">
         <div class="about-container">
           <div class="left-about">
-            <h3>Tired of Trash Isekais?</h3>
-            <p>Then we have an isekai for you</p>
+            <h3>Tired of self insert MC's in trashy Isekais?</h3>
+            <p>Then we have an MC for you to not self insert yourself into</p>
+            <div class="button">
+              <a
+                href="https://myanimelist.net/anime/39535/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu"
+                >Learn More</a
+              >
+            </div>
           </div>
           <img
             style="width: 500px; min-width: 200px"
@@ -34,28 +44,49 @@
         </div>
       </div>
 
-      <div class="section-2">
+      <div class="section-2" id="s2">
         <h2>Best Girls</h2>
         <div class="info-container">
-          <img
-            src="https://cdn.myanimelist.net/images/characters/4/423670.jpg"
-            class="best-girls"
-          />
+          <div class="best-container">
+            <p class="upper-text">Roxy Migurdia</p>
+            <img
+              src="https://cdn.myanimelist.net/images/characters/4/423670.jpg"
+              class="best-girls"
+            />
+            <p class="lower-text">50 year old Loli</p>
+          </div>
 
-          <img
-            src="https://cdn.myanimelist.net/images/characters/14/324594.jpg"
-            class="best-girls"
-          />
+          <div class="best-container">
+            <p class="upper-text">Eris Boreas Greyrat</p>
+            <img
+              src="https://cdn.myanimelist.net/images/characters/14/324594.jpg"
+              class="best-girls"
+            />
+            <p class="lower-text">Psychopathic "Tsundere"</p>
+          </div>
 
-          <img
-            src="https://cdn.myanimelist.net/images/characters/10/423669.jpg"
-            class="best-girls"
-          />
+          <div class="best-container">
+            <p class="upper-text">Sylphiette</p>
+            <img
+              src="https://cdn.myanimelist.net/images/characters/10/423669.jpg"
+              class="best-girls"
+            />
+            <p class="lower-text">"Childhood Friend"</p>
+          </div>
         </div>
       </div>
 
-      <footer class="footer-container">
-        All works go to their respective owners.
+      <div class="section-3">
+        <div class="start-container">
+          <h3>"Those who've known defeat are all the more stronger for it"</h3>
+          <h4>-It takes some guts to never get a job, actually.</h4>
+          <p>Author: Rudeus Greyrat</p>
+          <p>Translation: Jean RF Magott</p>
+        </div>
+      </div>
+
+      <footer class="footer-container" style="text-align: center">
+        Practice exercise by: xandreiAThome. For educational purposes only
       </footer>
     </div>
   </body>
